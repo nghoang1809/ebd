@@ -1,0 +1,68 @@
+Configuration	TFT
+STM32CubeMX 	6.12.0
+Date	11/17/2024
+MCU	STM32F746BETx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SPI1	Full-Duplex Master	SPI1_MISO	PA6
+SPI1	Full-Duplex Master	SPI1_MOSI	PA7
+SPI1	Full-Duplex Master	SPI1_SCK	PA5
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+35	PC0	GPIO_Output	RESX 
+36	PC1	GPIO_Output	CSX
+37	PC2	GPIO_Output	WRX_DCX
+43	PA0/WKUP	GPIO_Input	BTN TURN PAGES 
+44	PA1	GPIO_Input	BTN START/RESET 
+54	PA5	SPI1_SCK	
+55	PA6	SPI1_MISO	
+56	PA7	SPI1_MOSI	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SPI1	Full-Duplex Master	SPI1_MISO	PA6
+SPI1	Full-Duplex Master	SPI1_MOSI	PA7
+SPI1	Full-Duplex Master	SPI1_SCK	PA5
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+35	PC0	GPIO_Output	RESX 
+36	PC1	GPIO_Output	CSX
+37	PC2	GPIO_Output	WRX_DCX
+43	PA0/WKUP	GPIO_Input	BTN TURN PAGES 
+44	PA1	GPIO_Input	BTN START/RESET 
+54	PA5	SPI1_SCK	
+55	PA6	SPI1_MISO	
+56	PA7	SPI1_MOSI	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : TFT
+Project Folder : C:\Users\khong\hcmut\EMBEDDED C\MY_WORKSPACE\HOST\TFT
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F7 V1.17.2
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
